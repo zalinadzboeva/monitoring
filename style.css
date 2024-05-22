@@ -1,9 +1,15 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0%;
 }
 .wrapper{
     display: flex;
     margin: 0%;
+    font-family:'Inter';
 }
 .transport{
     width: 30%;
@@ -35,8 +41,106 @@ body{
 .transport__info{
     height: 365px;
     margin-bottom: 5px;
-    background-color:deeppink;
+    background-color:#fff;
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #B1ADFF;
+    color:  #8684B5;
+}
+.active{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 5%;
+    font-size: 16px;
+    height: 55px;
+    border-bottom: 1px solid #B1ADFF;
+}
+.title{
+    border-bottom: 1px solid #B1ADFF;
+    display: flex;
+    flex-direction: row;
+    height: 73px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 5%;
+}
+.title__item{
+    display: flex;
+}
+.title__icon{
+    height: 33px;
+    margin-right: 7px;
+}
+.title div{
+    height: 34px;
+}
+.taxi , .number{
+    color: #0D086B;
+    font-size: 14px;
+    margin: 0;
+}
+.route{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.status p{
+    margin: 0;
+}
+.ststus__now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.ststus__now img{
+    height: 11px;
+    margin-right: 1px;
+}
+.data{
+    font-weight: 300;
+    font-size: 14px;
+    height: 150px;
+    border-bottom: 1px solid #B1ADFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 5%;
+}
+.data h5 , .driver__head{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D086B;
+    margin: 10px 0 ;
+}
+.characteristic span{
+    color: #0D086B;
+}
+.characteristic li{
+    margin: 3px 0;
+}
+.driver{
+    padding: 0 5%;
+}
+.driver p{
+    color: #0D086B;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.driver img{
+    height:12px ;
 }
 .map{
     height: 1000px;
