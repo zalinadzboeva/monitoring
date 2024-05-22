@@ -1,0 +1,20 @@
+@media(max-width: 430px){
+    .transport__filters{
+        top: 23px;
+    }
+    .filters{
+        display: none;
+        margin: 0;
+    }
+    .map{
+        height: 260px;
+        width: 92%;
+        margin: 4%;
+        margin-top: 88px;
+        margin-bottom: auto;
+    }
+    .transport__info{
+        width: 100%;
+        height: 301px;
+    }
+}

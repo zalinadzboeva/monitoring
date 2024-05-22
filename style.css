@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+}
+.wrapper{
+    display: flex;
+    margin: 0%;
+}
+.transport{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.search{
+    height: 55px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(252, 111, 186) ;
+}
+.filters{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.filter{
+    height: 30px;
+    margin: 0;
+    width: 100px;
+    background-color: rgb(233, 83, 163);
+    border-radius: 20px;
+    margin-right: 6px;
+}
+.transport__info{
+    height: 365px;
+    margin-bottom: 5px;
+    background-color:deeppink;
+    border-radius: 15px;
+}
+.map{
+    height: 1000px;
+    width: 65%;
+    background-color:rgb(249, 129, 193);
+    border-radius: 15px;
+    margin: 2%;
+    margin-top: 40px;
+}

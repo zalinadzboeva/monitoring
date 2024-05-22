@@ -1,0 +1,40 @@
+@media(max-width: 768px){
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .transport{
+        width: 92%;
+        margin: 4%;
+        margin-top: 15px;
+    }
+    .transport__filters{
+        position: absolute;
+        top: 30px;
+        width: 92%;
+    }
+    .search{
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    .filter{
+        height: 25px;
+    }
+    .map{
+        height: 385px;
+        width: 92%;
+        margin: 4%;
+        margin-top: 135px;
+        margin-bottom: auto;
+    }
+    .transports__info{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .transport__info{
+        width: 49%;
+        height: 365px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+}
