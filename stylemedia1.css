@@ -33,8 +33,41 @@
     }
     .transport__info{
         width: 49%;
-        height: 365px;
         margin-bottom: 15px;
         border-radius: 15px;
+        font-size: 12px;
     }
+
+    .active{
+        font-size: 15px;
+        height: 46px;
+    }
+    .title{
+        height: 66px;
+    }
+    .data{
+        height: auto;
+        justify-content: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .driver{
+        padding-top: 8px;
+    }
+    .taxi , .number{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .subtitle{
+        font-size: 14px;
+        margin-bottom: 5px ;
+        margin-top: 0;
+    }
+    .driver img{
+        height:10px ;
+    }
+    .ststus__now {
+        font-size: 12px;
+    }
+
 }
